@@ -1,4 +1,4 @@
-const TOKEN = '9083744124:AAHSZlViZSznm6kubB61hjt3cVkuQDuUWLw';
+const TOKEN = process.env.BOT_TOKEN || 'PUT_TOKEN';
 const fs = require('fs');
 const path = require('path');
 if(!fs.existsSync('commands')) fs.mkdirSync('commands');
