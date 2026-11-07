@@ -1,0 +1,1 @@
+send('الساعة دلوقتي: ' + new Date().toLocaleTimeString('ar-EG'))
